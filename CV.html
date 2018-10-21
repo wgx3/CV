@@ -1,0 +1,1574 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0038)file:///C:/wamp/www/pingzhou/index.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Gaoxiang Wu's Home Page</title>
+  <style type="text/css">
+  
+  #g_title p, #g_footer p, #g_description p {
+    
+	margin: 0;
+
+  }
+
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+
+  	This file uses CSS filtering methods to fix various
+
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+
+  	separate, browser-specific CSS file that keeps all 
+
+  	hacks out of the main style sheet.
+
+  	Over time, as supporting these browsers no longer
+
+  	remains a priority, cleaning up the hacks is as
+
+  	easy as deleting the @import statement below, or
+
+ 	simply no longer linking this file from the HTML.
+
+  */
+
+  /* 
+
+    fix ie6 "peekaboo bug" using the "holly hack". 
+
+    Note, this style only gets applied to ie6
+
+  */
+
+  * html .wrapper {
+
+    height: 0.1%;
+
+  }
+
+  /* 
+
+
+   * IE5 mac - overrides the IE/Win hack 
+
+   */
+
+
+  /*\*//*/
+
+
+  * html #threecolumn div {
+
+  	height: auto;
+
+  }
+
+  /**/
+
+  /* 
+
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+
+   */
+
+  @media tty {
+
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+
+  }/* */
+
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+
+  .editable {
+
+    border: 1px dashed blue;
+
+  }
+
+  #footer {
+
+    clear: both;
+
+  }
+
+  /* Extra divs hidden by default. The custom CSS can override this though */
+
+
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+
+
+    display: none;
+
+  }
+
+  a img,:link img,:visited img {border: none;}
+
+  body {
+
+  text-align: center;
+
+  }
+
+
+  #container {
+
+
+
+
+
+
+
+    width: 718px;
+
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  /** BEGIN CUSTOM SKIN **/
+
+
+
+
+
+
+
+  /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	-- -- -- -- -- -- --
+
+
+
+
+
+
+
+  	Base CSS
+
+
+
+
+
+
+
+  	-- -- -- -- -- -- --
+
+
+
+
+
+
+
+  	
+
+
+
+
+
+
+
+  	This file simply removes default styling on most HTML elements in 
+
+
+
+
+
+
+
+  	order to reduce the need to later override them.
+
+
+
+
+
+
+
+  	
+
+
+
+
+
+
+
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+
+
+
+
+
+
+
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+
+
+
+
+
+
+
+  a img,:link img,:visited img {border: none;}
+
+
+
+
+
+
+
+  address {font-style: normal;}html {background:#eee;}
+
+
+
+
+
+
+
+  body {background:#eee;font-family:'Verdana','Helvetica', 'Arial', sans-serif;font-size:0.85em;}
+
+
+
+
+
+
+
+  a {color:#00c;text-decoration:underline !important;}
+
+
+
+
+
+
+
+  a:visited {color:#551a8b;}
+
+
+
+
+
+
+
+  b, strong {font-weight:bold;}
+
+
+
+
+
+
+
+  blockquote {border-left:1px solid #ccc;margin:1em 3em;padding-left:1em;font-size:0.9em;}
+
+
+
+
+
+
+
+  blockquote p {line-height:1.45em;}
+
+
+
+
+
+
+
+  em {font-style:italic;}
+
+
+
+
+
+
+
+  h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:1.5em 0 0.5em 0;}
+
+
+
+
+
+
+
+  h1 {font-size:2.25em;color:#666;margin:0;}
+
+
+
+
+
+
+
+  h2 {font-size:1.5em;color:#333;}
+
+
+
+
+
+
+
+  h3 {font-size:1.3em;}
+
+
+
+
+
+
+
+  h4 {font-size:1.15em;}
+
+
+
+
+
+
+
+  h5 {font-size:1em;}
+
+
+
+
+
+
+
+  h6 {font-size:0.8em;}
+
+
+
+
+
+
+
+  p, li {color:#000;line-height:1.75em;margin:0 0 1.5em 0;}
+
+
+
+
+
+
+
+  blockquote p, table p, dd p, li p, #header p {margin-bottom:0.5em;}
+
+
+
+
+
+
+
+  ul, ol {margin:1em 0; padding-left: 1.6em;}
+
+
+
+
+
+
+
+  li {margin:0.25em 0;}
+
+
+
+
+
+
+
+  ul li {list-style-type:disc;}
+
+
+
+
+
+
+
+  ol li {list-style-type:decimal;}
+
+
+
+
+
+
+
+  table {border:1px solid #ccc;border-width:1px 1px 0 1px;}
+
+
+
+
+
+
+
+  table caption {display:block;font-style:italic;white-space:nowrap;margin:0.5em 1em;}
+
+
+
+
+
+
+
+  table td, table th {padding:0.5em 1em;text-align:left;vertical-align:top;}
+
+
+
+
+
+
+
+  table th {font-weight:bold;border-bottom:1px solid #999;}
+
+
+
+
+
+
+
+  table td {border-bottom:1px solid #ddd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  dl {margin:1em;line-height:1.5em;list-style-type:disc;}
+
+
+
+
+
+
+
+  dt {font-weight:bold;margin-top:0.5em;}
+
+
+
+
+
+
+
+  dd {margin-left:2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #adsense {text-align:center;}
+
+
+
+
+
+
+
+  #container {
+
+
+
+
+
+
+
+  	padding: 25px 40px 10px 40px; 
+
+
+
+
+
+
+
+  	border: 1px solid #ccc;
+
+
+
+
+
+
+
+  	background:#fff;
+
+
+
+
+
+
+
+  	margin:1em auto;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  #footer {border-top:1px solid #ccc;margin-top:2em;}
+
+
+
+
+
+
+
+  #header {border-bottom:1px solid #ccc;margin-bottom:2em;}
+
+
+
+
+
+
+
+  #sidebar {font-size:1.0em;}
+
+
+
+
+
+
+
+  #sidebar :first-child {margin-top:0;}
+
+
+
+
+
+
+
+  #sidebar-alternate {font-size:1.0em;}
+
+
+
+
+
+
+
+  #sidebar-alternate :first-child {margin-top:0;}
+
+
+
+
+
+
+
+  #main-content {
+
+
+
+
+
+
+
+	background:#fff;
+
+
+
+
+
+
+
+	visibility: visible;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+  #main-content h2:first-child {margin-top:0;}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media print {
+
+
+
+
+
+
+
+    html {background:#fff !important;}
+
+
+
+
+
+
+
+    #container {border-width:0px !important;padding:0 !important;}
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for Three-column layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+  #threecolumn #main-content .wrapper {padding:0 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for Two-column Left layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+  #twocolumn-left #main-content .wrapper {padding-left:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for Two-column Right layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+  #twocolumn-right #main-content .wrapper {padding-right:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for Two-column Liquid layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+  #twocolumn-liquid-right #container {margin:1em 1em;}
+
+
+
+
+
+
+
+  #twocolumn-liquid-right #main-content .wrapper {padding-right:25px;}
+
+
+
+
+
+
+
+  #twocolumn-liquid-left #container {margin:1em 1em;}
+
+
+
+
+
+
+
+  #twocolumn-liquid-left #main-content .wrapper {padding-left:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for One-column Liquid layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tweaks for One-column layout
+
+
+
+
+
+
+
+  ----------------------------------------------- */
+
+
+
+
+
+
+
+  #onecolumn #main-content .wrapper {padding-left:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ie5win */
+
+
+
+
+
+
+
+  @media tty { i{content:"\";/*" "*/}} * html #container { padding: 25px 0px 10px 10px; } /*";}
+
+
+
+
+
+
+
+  }/* */
+
+
+
+
+
+
+
+  .style9 {font-size: x-large; }
+
+
+
+
+
+
+
+.style11 {font-family: Verdana, Arial, Helvetica, sans-serif}
+
+
+
+
+
+
+
+  .style14 {color: #666666}
+
+
+
+
+
+
+
+  .style20 {color: #999999;
+
+
+
+
+
+
+
+	font-size: large;
+
+
+
+
+
+
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+  .style22 {color: #000000}
+
+
+
+
+
+
+
+  .style31 {font-size: 15px}
+
+
+
+
+
+
+
+.style35 {font-family: 'Palatino Linotype', 'serif'}
+
+
+
+
+
+
+
+..style38 {font-family: Arial, Helvetica, sans-serif; font-size: medium; }
+  .style47 {color: #FF6600
+}
+.style48 {font-size: large; font-family: Geneva, Arial, Helvetica, sans-serif; color: #999999;}
+
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Hack to avoid flash of unstyled content in IE -->
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<meta name="ProgId" content="Word.Document"><meta name="Generator" content="Microsoft Word 12"><meta name="Originator" content="Microsoft Word 12"><script charset="utf-8" id="injection_graph_func" src="file:///F:/-=sharp=-/1-3%20MinPaper%20New/0-1%202009-Aca/A-1-ASIT2009/0-1%20Website/asit2009/pmsn09cfp_files/injection_graph_func.js"></script>
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body id="onecolumn">
+
+
+
+
+
+
+
+  <div id="container">
+
+
+
+
+
+
+
+    <div class="wrapper">
+
+
+
+
+
+
+
+      <div id="header">
+
+
+
+
+
+
+
+<div class="wrapper">
+
+
+
+
+
+
+
+          <h1 id="page-title">
+
+
+
+
+
+
+
+          <div id="g_title"></div></h1>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+
+
+
+
+
+
+
+        <tbody><tr>
+
+
+
+
+
+
+
+          <td colspan="6" rowspan="2"><img src="./gaoxiang.png" width="164" height="227"></td>
+
+
+
+
+
+
+
+          <td width="565" height="65">
+
+
+
+
+
+
+
+            <h3><span class="style9">Gaoxiang Wu</span></h3></td>
+
+
+
+
+
+
+
+        </tr>
+
+
+
+
+
+
+
+        <tr>
+
+
+
+
+
+
+
+          <td height="156"><p class="MsoNormal" style11=""><span lang="EN-US" style="FONT-FAMILY: &#39;Palatino Linotype&#39;,&#39;serif&#39;; mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p><span class="style38">Ph.D Candidate</span></o:p></span></p>
+
+
+
+
+
+
+
+              <p class="MsoNormal" style11=""><span lang="EN-US" style="FONT-FAMILY: &#39;Palatino Linotype&#39;,&#39;serif&#39;; mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p><span class="style11">Student, Embedded and Pervasive Computing (<a href="http://epic.hust.edu.cn/" target="blank">EPIC</a>) Lab</span></o:p></span></p>
+              <p class="MsoNormal" style11=""><span lang="EN-US" style="FONT-FAMILY: &#39;Palatino Linotype&#39;,&#39;serif&#39;; mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p><span class="style11">School of Computer Science and Technology<span class="style35"> </span> </span></o:p> </span></p>
+              <p class="MsoNormal" style11=""><o:p><span class="style11" style="FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun" lang="EN-US">Huazhong University of Science and Technology,</span><span class="style11"> 1037 Luoyu Road, Wuhan, 430074, China </span></o:p><span lang="EN-US" style="FONT-FAMILY: &#39;Palatino Linotype&#39;,&#39;serif&#39;; mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p></o:p></span><span class="style14"><strong><br>Email: </strong><span class="style22">gaoxiangwu.epic@qq.com</span>
+<br><strong> Mobile: </strong><span class="style22">13551842837<span lang="EN-US" style="mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p></o:p></span> </span></span><span lang="EN-US" style="mso-fareast-language: ZH-CN; mso-fareast-font-family: SimSun"><o:p></o:p></span></p>
+
+
+
+
+
+
+
+          </td>
+
+
+
+
+
+
+
+        </tr>
+
+
+
+
+
+
+
+        <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+
+
+
+
+
+
+      </tbody></table>
+
+
+
+
+
+
+
+      <p>&nbsp;</p>
+
+
+
+
+
+
+
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+
+
+
+
+
+
+
+        <tbody><tr>
+          <td width="2904" colspan="2" class="style31"><div align="justify"><strong>Gaoxiang Wu</strong> obtained his bachelor degree in University of Electronic Science and Technology of China (UESTC). He got national inspiration scholarship for several times. In September 2016, he was recommended for direct admission to Huazhong University of Science and Technology without entrance examination. Currently, he is a Phd candidate in Embedded and PervasIve Computing Lab at HUST. His research interests include congnitive system and deep learning.
+            </div></td>
+        </tr>
+      </tbody></table>
+
+	  <br><br>
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Publications</strong></span></strong></strong></span></td>
+          </tr>
+		  <td width="48">1</td>
+          <td> Y. Miao, <strong>Gaoxiang Wu</strong>, M. Shamim Hossain, Ghulam Muhammad, "Green Cognitive Body Sensor Network: Architecture, Energy Harvesting and Smart Clothing based Applications", <em>IEEE Sensors</em>,2018. 
+		  </tbody>
+		  <tbody>
+          <tr>
+          </tr>
+		  <td width="48">2</td>
+          <td>H.Long,Y. Miao, <strong>Gaoxiang Wu</strong>, M. Shamim Hossain, Ghulam Muhammad, "iRobot-Factory: An intelligent robot factory based on cognitive manufacturing and edge computing", <em>Future Generation Computer Systems</em>,2018. 
+		  </tbody>
+		  <tbody>
+          <tr>
+          </tr>
+		  <td width="48">3</td>
+          <td> Jeungeun Song, M.Liu,  <strong>Gaoxiang Wu</strong>,W.Lu, Y.Li,E.Song, "Emotion Communications Driven by Big Data Cloud, Smart Clothing and Robotics", <em> 12th EAI International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities</em>,2017</td>
+		  </tbody>
+		  <td width="48">4</td>
+          <td> J. Wang, P. Zhai, Y. Zhang, L. Shi, <strong>Gaoxiang Wu</strong>, X. Shi, P. Zhou, "Software Defined Network Routing in Wireless Sensor Network", <em>Cloudcomp 2016</em>, Guangzhou, China, Nov. 2016. (<span class="style47">Best Paper Award - runner up</span>)</td>
+
+        
+          
+      </tbody>
+      </table>
+	  <p>&nbsp;</p>
+      <p>&nbsp;</p>
+	  <table width="728" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Selected Patent</strong></span></strong></strong></span></td>
+        </tr>
+
+        <tr>
+          <td width="48">1</td>
+          <td width="680"><div align="justify">Du Hao, Kang Rui, <strong>Gaoxiang Wu </strong>(第三发明人), Sai Xu, Shinan Liu, Shengzhi Qin, Xibo Yang, Xin Zhou "Wireless Signal Receiving Device And System, 无线信号接受装置及系统", 实用新型专利，已授权，专利号：ZL 2017 2 1090307.0
+          </div></td>
+
+        </tr>
+
+      </tbody></table>
+  
+     <!-- <table width="728" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Study at Uestc </strong></span></strong></strong></span></td>
+          </tr>
+            <td width="48">2</td>
+            <td width="680"><div align="justify">Rank 10% among total Mainframes students at UESTC of Software Engineering in terms of integrated score</div></td>
+          </tr>
+        </tbody>
+        
+          
+      </tbody>
+      </table-->
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td colspan="3"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Education</strong></span></strong></strong></span></td>
+          </tr>
+          <tr>
+            <td width="48">1</td>
+            <td width="180"><strong>Ph.D Candidate</strong> <br>
+              2017.09-</td>
+            <td width="500">Computer Science and Technology <br>
+              Huazhong University of Science and Technology <br>
+              Advisor: <a href="http://mmlab.snu.ac.kr/~mchen/" target="_blank">Prof. MinChen</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>Bachelor</strong> <br>
+              2013.09-2017.06</td>
+            <td>Software Engineering <br>
+              University of Electronic Science and Technology of China <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+      <table width="728" border="0" cellspacing="0" cellpadding="0" style="word-break:break-all;word-wrap:break-all;">
+        <tbody><tr>
+          <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Awards,Experience</strong></span></strong></strong></span></td>
+        </tr>
+
+        
+        <tr><td colspan="2">2013-2014</td></tr>
+        <tr>
+          <td width="48"></td>
+          <td width="680">1.Scholarship of Academic Excellent, Second Prize, University of Electronic Science and Technology of China 
+		  <br>2.The best debater in the college finals debate 
+		  <br>3.Member of college debate team 
+		  <br>4.The monitor of the class
+		  <br>
+        </tr>
+
+        <tr><td colspan="2">2014-2015</td></tr>
+        <tr>
+          <td width="48"></td>
+          <td>1.Scholarship of Academic Excellent, First Prize, University of Electronic Science and Technology of China 
+		  <br>2.Excellent Member, The pupils University of Electronic Science and Technology of China 
+		  <br>3.The head of Dongfangtong Studio
+        </tr>
+
+        <tr><td colspan="2">2015-2016</td></tr>
+        <tr>
+          <td width="48"></td>
+          <td>1.Scholarship of Academic Excellent, First Prize, University of Electronic Science and Technology of China 
+		  <br>2.GET primary ISQTB certificate 
+		  <br>3.Half a year working exeprience in <a href="http://www.xinhuanet.com/">Xinhua Net</a>
+		  <br>
+        </tr>
+         
+         <tr><td colspan="2">2016-2017</td></tr>
+        <tr>
+          <td width="48"></td>
+          <td>1.Outstanding Graduate, University of Electronic Science and Technology of China
+          <br>2."Challenge Cup" First-class Prize , Sichuan province
+          <br>3."Challenge Cup" Third-class Prize ,China
+          <br>4."Excellent student" University of Electronic Science and Technology of China</td>
+        </tr>
+
+
+      </tbody></table>
+
+	  <p>&nbsp;</p>
+	  <!--
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Selected Patent</strong></span></strong></strong></span></td>
+        </tr>
+
+        <tr>
+          <td width="48"></td>
+          <td width="680"><div align="justify"><strong></strong>
+          </div></td>
+
+        </tr>
+
+      </tbody></table-->
+	  
+	  
+
+
+<p>&nbsp;</p>
+<table width="728" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td colspan="2"><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Project</strong></span></strong></strong></span></td>
+    </tr>
+     <tr>
+      <td width="48">1</td>
+      <td width="680"><div align="justify"><strong>Searching for Uestcer</strong><br>This a moblile phone appliacation to show the position of Uestcer using thinkphp and echarts.The amount of the users is beyound seven thousand.</td>
+     
+	</tr>
+    <tr>
+      <td>2</td>
+      <td><div align="justify"><strong>The backstage of Sichuan Xinhua Net WeChat Webapp </strong><br>Manage the content of front page and some basic functions of backstage such as making static web and giving different properties to different kinds of admins.It used Thinkphp framework.</div></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><div align="justify"><strong>The Sichuan Xinhua Net Messageboard for Sichuan goverment</strong><br>It uses Spring ,Springmvc and Mybatis framework and gives different kinds of users different jurisdiction to leave messages to officials.</div></td>
+	<tr>
+	  <td>4</td>
+	  <td>
+	    <div align="justify"><strong>Some project screen shots</strong><br>
+		<a href="./demo_1.png">demo1</a>&nbsp
+		<a href="./demo_2.png">demo2</a>
+	  </td>
+	</tr>
+    </tr>
+    <tr>
+
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<table width="728" border="0" cellspacing="0" cellpadding="0" style="word-break:break-all;word-wrap:break-all;">
+        <tbody><tr>
+          <td><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Skills</strong></span></strong></strong></span></td>
+        </tr>
+
+        <tr>
+          <td><strong>English Level</strong>:CET-6</td>
+
+        </tr>
+
+
+        <tr>
+          <td><strong>Programming Language</strong>: C/JAVA/PHP/PYTHON,HTML+CSS+JavaScript</td>
+          
+        </tr>
+
+		<tr>
+          <td><strong>Programming Framework</strong>: Tensorflow,Pytorch,Spring,Springmvc,Mybatis,Thinkphp</td>
+          
+        </tr>
+
+        <tr>
+          <td><strong>Database</strong>: MYSQL </td>
+         
+        </tr>
+
+
+        <tr>
+          <td><strong>Operation System</strong>: Windows/Linux</td>
+         
+        </tr>
+
+      </tbody></table>
+
+
+      <p>&nbsp;</p>
+      <table width="728" border="0" cellspacing="0" cellpadding="0" style="word-break:break-all;word-wrap:break-all;">
+        <tbody><tr>
+          <td><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Hobbies</strong></span></strong></strong></span></td>
+        </tr>
+
+        <tr>
+          <td>Basketball , Reading Books, Singing, Watching Movie, Traveling, Board games.etc</td>
+
+        </tr>
+
+      </tbody></table>
+
+
+      <p>&nbsp;</p>
+      <table width="728" border="0" cellspacing="0" cellpadding="0" style="word-break:break-all;word-wrap:break-all;">
+        <tbody><tr>
+          <td><span class="style20"><strong><strong><span class="MsoNormal style14"><strong>Links</strong></span></strong></strong></span></td>
+        </tr>
+
+        <tr>
+          <td>
+          <ul>
+	  <li><a href="http://mmlab.snu.ac.kr/~mchen/" target="blank">Prof. MinChen</a></li>
+          <li><a href="http://epic.hust.edu.cn/" target="blank">Embedded and Pervasive Computing Lab (EPIC Lab)</a>, HUST</li>
+          </ul>
+          </td>
+
+        </tr>
+
+      </tbody></table>
+
+
+
+
+
+      <p>&nbsp;</p>
+      <table width="728" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+      <td width="278"><a href="#">Back</a></td>
+      <td width="450">Gaoxiang Wu @ 2018</td>
+      </tr>
+      </tbody></table>
+
+
+
+
+      <p align="center">
+      <script type="text/javascript">
+      var sc_project=4579339; 
+      var sc_invisible=0; 
+      var sc_partition=56; 
+      var sc_click_stat=1; 
+      var sc_security="897a9237"; 
+      </script>
+      <script type="text/javascript" src="./index_files/counter_xhtml.js"></script><span class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" target="_blank"></a></span>
+<noscript>&lt;div class="statcounter"&gt;&lt;a title="web stats" class="statcounter" href="http://www.statcounter.com/free_web_stats.html"&gt;
+      &lt;img src="http://c.statcounter.com/4579339/0/897a9237/0/" alt="web stats" width="39" height="23" class="statcounter" /&gt;&lt;/p&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</noscript></p></div></div></div></body></html>
